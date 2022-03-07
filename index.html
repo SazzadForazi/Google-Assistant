@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assistant</title>
+    <style>
+        .container {
+            text-align: center;
+        }
+
+        i {
+            /* font-size: 36px; */
+            padding: 15px;
+            border: 1px solid green;
+            color: blueviolet;
+            /* height: 35px;
+            width: 35px; */
+            border-radius: 50%;
+            transition: background 0.5s;
+        }
+
+        i:hover {
+            background-color: tomato;
+            cursor: pointer;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Personal Google Assistant</h1>
+        <i onclick="recognition.start()" class="fa fa-microphone" style="font-size:36px"></i>
+        <h3 id="output"></h3>
+        <h3 id="show"></h3>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
